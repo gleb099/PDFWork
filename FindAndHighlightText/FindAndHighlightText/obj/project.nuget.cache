@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "j5wGwhC9EtEOkprvtxW/S0Fk0pP22pXw7+JzAokCM70YSTVfV35PQYSktsaIqDx23fhLP4uGePuuV7cXK7eEHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shevchenko\\source\\repos\\FindAndHighlightText\\FindAndHighlightText\\FindAndHighlightText.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shevchenko\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.3.12622\\bitmiracle.docotic.pdf.8.3.12622.nupkg.sha512",
+    "C:\\Users\\shevchenko\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\shevchenko\\.nuget\\packages\\tesseract\\4.1.1\\tesseract.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

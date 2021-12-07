@@ -1,0 +1,102 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PDFReader_v1.0/1.0.0": {
+        "dependencies": {
+          "BitMiracle.Docotic.Pdf": "8.3.12622",
+          "Tesseract": "4.1.1",
+          "iTextSharp": "5.5.13.2"
+        },
+        "runtime": {
+          "PDFReader_v1.0.dll": {}
+        }
+      },
+      "BitMiracle.Docotic.Pdf/8.3.12622": {
+        "runtime": {
+          "lib/netstandard2.0/BitMiracle.Docotic.Pdf.dll": {
+            "assemblyVersion": "8.3.12622.0",
+            "fileVersion": "8.3.12622.0"
+          }
+        }
+      },
+      "BouncyCastle/1.8.6.1": {
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.6.0",
+            "fileVersion": "1.8.20052.1"
+          }
+        }
+      },
+      "iTextSharp/5.5.13.2": {
+        "dependencies": {
+          "BouncyCastle": "1.8.6.1"
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {
+            "assemblyVersion": "5.5.13.2",
+            "fileVersion": "5.5.13.2"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "Tesseract/4.1.1": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Tesseract.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PDFReader_v1.0/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BitMiracle.Docotic.Pdf/8.3.12622": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJ6O9YW+JxuTIqBL8iGkOQDYXWJKv1kTRKxtkJroDtIACKu+01JAAb8CC3TaDeqyo4Dv9CgsW6rPi9HhQVWgQA==",
+      "path": "bitmiracle.docotic.pdf/8.3.12622",
+      "hashPath": "bitmiracle.docotic.pdf.8.3.12622.nupkg.sha512"
+    },
+    "BouncyCastle/1.8.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rkqpuKmJkdcfTMBkIj1b5nMdBAWKwAyh+I/BQYeqqSD2jkIlhwc9qBNKmSbnpmmm5c29qHZGLpvBSTNWvDLtQA==",
+      "path": "bouncycastle/1.8.6.1",
+      "hashPath": "bouncycastle.1.8.6.1.nupkg.sha512"
+    },
+    "iTextSharp/5.5.13.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8m9oT1nh9F4Z1tzWUey/8lEzZtMGFCDXQY5+8/SSmPgUWAAAWniRo8pimKUZyteNqJr5vtFBxjAhRwLxG7Q0zQ==",
+      "path": "itextsharp/5.5.13.2",
+      "hashPath": "itextsharp.5.5.13.2.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "Tesseract/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-abufaW6N3P7TGJPI3RNTMSzS1ycnE1w6aW/Q+Hco/wCgm+bXUgR87JsGELvTcm2FISXGlQgs+PvYMVo9SlcPfg==",
+      "path": "tesseract/4.1.1",
+      "hashPath": "tesseract.4.1.1.nupkg.sha512"
+    }
+  }
+}

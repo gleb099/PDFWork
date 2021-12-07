@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "dgSpecHash": "VZOr2E6ZV2AACty17vWSCkQibg4sWSZg7GS8PAnhstG4bqS99ur/FJGUonp55JkE70KfhyAfCKTNRC2HyuAXlg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shevchenko\\source\\repos\\PDFReader_v1.0\\PDFReader_v1.0\\PDFReader_v1.0.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shevchenko\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.3.12622\\bitmiracle.docotic.pdf.8.3.12622.nupkg.sha512",
+    "C:\\Users\\shevchenko\\.nuget\\packages\\bouncycastle\\1.8.6.1\\bouncycastle.1.8.6.1.nupkg.sha512",
+    "C:\\Users\\shevchenko\\.nuget\\packages\\itextsharp\\5.5.13.2\\itextsharp.5.5.13.2.nupkg.sha512",
+    "C:\\Users\\shevchenko\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\shevchenko\\.nuget\\packages\\tesseract\\4.1.1\\tesseract.4.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"BouncyCastle 1.8.6.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"iTextSharp 5.5.13.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

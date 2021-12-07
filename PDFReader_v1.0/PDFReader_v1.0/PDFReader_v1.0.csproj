@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>PDFReader_v1._0</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BitMiracle.Docotic.Pdf" Version="8.3.12622" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.2" />
+    <PackageReference Include="Tesseract" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="tessdata\rus.traineddata">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

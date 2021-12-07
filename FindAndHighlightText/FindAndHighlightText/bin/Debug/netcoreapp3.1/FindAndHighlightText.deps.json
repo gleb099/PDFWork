@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FindAndHighlightText/1.0.0": {
+        "dependencies": {
+          "BitMiracle.Docotic.Pdf": "8.3.12622",
+          "Tesseract": "4.1.1"
+        },
+        "runtime": {
+          "FindAndHighlightText.dll": {}
+        }
+      },
+      "BitMiracle.Docotic.Pdf/8.3.12622": {
+        "runtime": {
+          "lib/netstandard2.0/BitMiracle.Docotic.Pdf.dll": {
+            "assemblyVersion": "8.3.12622.0",
+            "fileVersion": "8.3.12622.0"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "Tesseract/4.1.1": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Tesseract.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FindAndHighlightText/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BitMiracle.Docotic.Pdf/8.3.12622": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJ6O9YW+JxuTIqBL8iGkOQDYXWJKv1kTRKxtkJroDtIACKu+01JAAb8CC3TaDeqyo4Dv9CgsW6rPi9HhQVWgQA==",
+      "path": "bitmiracle.docotic.pdf/8.3.12622",
+      "hashPath": "bitmiracle.docotic.pdf.8.3.12622.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "Tesseract/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-abufaW6N3P7TGJPI3RNTMSzS1ycnE1w6aW/Q+Hco/wCgm+bXUgR87JsGELvTcm2FISXGlQgs+PvYMVo9SlcPfg==",
+      "path": "tesseract/4.1.1",
+      "hashPath": "tesseract.4.1.1.nupkg.sha512"
+    }
+  }
+}
